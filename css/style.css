@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(../img/deserttileset/png/BG.png);
+  background-position: bottom;
+}
+
+#player {
+  background-image: url(../img/idle1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 127px;
+  height: 150px;
+  position: absolute;
+  bottom: 120px;
+  z-index: 2;
+}
+
+.turn {
+  transform: rotateY(180deg);
+}
+
+#ground {
+  background-image: url(../img/deserttileset/png/Tile/2.png);
+  position: absolute;
+  height: 120px;
+  width: 100vw;
+  bottom: 0;
+  z-index: 1;
+}
+
+#tree {
+  background-image: url(../img/deserttileset/png/Objects/Tree.png);
+  position: absolute;
+  background-repeat: inherit;
+  height: 313px;
+  width: 100vw;
+  bottom: 65px;
+  left: 750px;
+}
+
+#sign-arrow {
+  background-image: url(../img/deserttileset/png/Objects/SignArrow.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  height: 313px;
+  width: 100vw;
+  bottom: -105px;
+  left: 10px;
+}
+
+#stone {
+  background-image: url(../img/deserttileset/png/Objects/Stone.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  height: 313px;
+  width: 100vw;
+  bottom: -120px;
+  left: 1000px;
+}
+
+/*# sourceMappingURL=style.css.map */
