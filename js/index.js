@@ -28,11 +28,11 @@ let index1=1;
 const animate =()=>{
 
     if(dy!==0){
-        player.style.backgroundImage = `url('../img/Jump${index++}.png')`;
+        player.style.backgroundImage = `url('img/Jump${index++}.png')`;
     }else if(dx!==0){
-        player.style.backgroundImage = `url('../img/Run${index1++}.png')`;
+        player.style.backgroundImage = `url('img/Run${index1++}.png')`;
     }else{
-        player.style.backgroundImage = `url('../img/idle${index++}.png')`;
+        player.style.backgroundImage = `url('img/idle${index++}.png')`;
     }
 
     if(index>10){
@@ -111,7 +111,7 @@ addEventListener('keypress',({key})=>{
 requestAnimationFrame(animate);
 requestAnimationFrame(draw);
 
-let j=0;
+/* let j=0;
 let t1=0;
 const interval = 2;
 function repaint(timestamp){
@@ -123,4 +123,4 @@ function repaint(timestamp){
     }
     requestAnimationFrame(repaint);
 }
-requestAnimationFrame(repaint);
+requestAnimationFrame(repaint); */
